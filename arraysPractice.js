@@ -20,7 +20,7 @@ var arr = [40,50,60];
 
   //Code Here
 function  last(arr) {
-  return arr[arr.length - 1];
+  return arr.pop();
 }
 
 //Next Problem
@@ -60,7 +60,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 //all values that aren't even from the given array.
 
   //Code Here
-function evenFinder(nums) {
+function evenFinder(nums) { debugger;
   for (var i = 0;i < nums.length; i++) {
     if (nums[i] % 2 === 1) {
       nums.splice(i,1);
